@@ -1,0 +1,91 @@
+@media(max-width:740px) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+
+    }
+
+    #nav .subnav a {
+        line-height: 38px;
+        padding: 5px 41px;
+
+    }
+  
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: auto;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    .social-list a {
+        margin: 0 8px;
+    }
+    
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+
+    }
+}
+@media (max-width:740px) and (max-width: 1023px){
+    .contact-info{
+        line-height: 2;
+    }
+}
+/* Display: block chiem chon chieu dai the cha
+Display: inline-block chi chiem chon do dai cua content */
